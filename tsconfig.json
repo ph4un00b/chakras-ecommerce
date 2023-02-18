@@ -1,6 +1,9 @@
 {
   "extends": "expo/tsconfig.base",
+  "exclude": ["node_modules"],
+  "module": "esnext", // add this line
   "compilerOptions": {
-    "strict": true
+    "strict": true,
+    "types": ["nativewind/types"]
   }
 }
