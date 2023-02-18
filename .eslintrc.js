@@ -9,7 +9,7 @@ module.exports = {
 		// "plugin:react/recommended",
 		"plugin:@typescript-eslint/recommended",
 		/**
-		 * if problems you might use
+		 * if problems arise you might use
 		 * @see https://www.npmjs.com/package/@react-native-community/eslint-plugin
 		 */
 		"universe/native",
@@ -40,16 +40,16 @@ module.exports = {
 		"linebreak-style": ["error", "unix"],
 		quotes: ["error", "double"],
 		semi: ["error", "always"],
-		"no-return-await": "error",
 		eqeqeq: ["off", "smart"],
 		"react/no-unescaped-entities": ["warn", { forbid: ["'"] }],
 		"react-hooks/exhaustive-deps": "error",
-		"@typescript-eslint/no-non-null-assertion": "off",
+		"prettier/prettier": ["off"],
+		"import/order": ["error"],
+		"no-return-await": "error",
 		"no-labels": ["off"],
 		"no-unused-labels": ["error"],
 		"@typescript-eslint/ban-ts-comment": ["off"],
-		"prettier/prettier": ["off"],
 		"@typescript-eslint/no-var-requires": ["error"],
-		"import/order": ["error"],
+		"@typescript-eslint/no-non-null-assertion": "off",
 	},
 };
