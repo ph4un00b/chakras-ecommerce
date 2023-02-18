@@ -2,14 +2,48 @@
 
 - [ ] PRINCIPAL:
   - [ ] FILTROS-ORDENAMIENTO
+    - [ ] markup
+    - [ ] logic
+    - [ ] look and feel
   - [ ] FOTO
+    - [ ] markup
+    - [ ] logic
+    - [ ] look and feel
   - [ ] TITULO
+    - [ ] markup
+    - [ ] logic
+    - [ ] look and feel
   - [ ] PRECIO
+    - [ ] markup
+    - [ ] logic
+    - [ ] look and feel
   - [ ] LINK AL DETALLE
+    - [ ] markup
+    - [ ] logic
+    - [ ] look and feel
+
 - [ ] DETALLE:
   - [ ] FOTO
+    - [ ] markup
+    - [ ] logic
+    - [ ] look and feel
   - [ ] TITULO
+    - [ ] markup
+    - [ ] logic
+    - [ ] look and feel
   - [ ] DESCRIPCION
+    - [ ] markup
+    - [ ] logic
+    - [ ] look and feel
   - [ ] PRECIO
+    - [ ] markup
+    - [ ] logic
+    - [ ] look and feel
   - [ ] CONTADOR
+    - [ ] markup
+    - [ ] logic
+    - [ ] look and feel
   - [ ] BOTONES DE COMPRA(AGREGAR AL CARRITO, COMPRAR AHORRA)
+    - [ ] markup
+    - [ ] logic
+    - [ ] look and feel
