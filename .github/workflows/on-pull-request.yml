@@ -3,6 +3,8 @@ name: Lint and Types
 on:
   pull_request:
     types: [opened, edited, synchronize]
+    branches:
+      - master
   pull_request_review:
     types: [submitted]
     branches:
