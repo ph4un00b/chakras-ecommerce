@@ -9,5 +9,5 @@ export default function Details() {
 			<Button title="+ Agregar" />
 			<Button title="$ comprar" />
 		</View>
-	);
+	)
 }
