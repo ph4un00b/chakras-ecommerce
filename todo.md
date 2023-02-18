@@ -1,28 +1,33 @@
 - UI: https://dribbble.com/shots/19614098-Shopcart-E-Commerce-Product-Page
 
+- [x] BASE SETUP (TW, LINT, EDITORCONFIG)
+- [ ] TYPE CHECKING BEFORE MERGE
+- [ ] LINT BEFORE MERGE
+
 - [ ] PRINCIPAL:
   - [ ] FILTROS-ORDENAMIENTO
-    - [ ] markup
+    - [x] markup
     - [ ] logic
     - [ ] look and feel
   - [ ] FOTO
-    - [ ] markup
+    - [x] markup
     - [ ] logic
     - [ ] look and feel
   - [ ] TITULO
-    - [ ] markup
+    - [x] markup
     - [ ] logic
     - [ ] look and feel
   - [ ] PRECIO
-    - [ ] markup
+    - [x] markup
     - [ ] logic
     - [ ] look and feel
   - [ ] LINK AL DETALLE
-    - [ ] markup
+    - [x] markup
     - [ ] logic
     - [ ] look and feel
 
 - [ ] DETALLE:
+  - [x] ROUTING
   - [ ] FOTO
     - [ ] markup
     - [ ] logic
@@ -44,6 +49,6 @@
     - [ ] logic
     - [ ] look and feel
   - [ ] BOTONES DE COMPRA(AGREGAR AL CARRITO, COMPRAR AHORRA)
-    - [ ] markup
+    - [x] markup
     - [ ] logic
     - [ ] look and feel

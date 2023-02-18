@@ -32,7 +32,10 @@ export default function TabLayout() {
 					title: "Principal",
 					tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
 					headerRight: () => (
-						<Link href="/modal" asChild>
+						/**
+						 * @todo render something on prod
+						 */
+						<Link href="/_sitemap" asChild>
 							<Pressable>
 								{({ pressed }) => (
 									<FontAwesome

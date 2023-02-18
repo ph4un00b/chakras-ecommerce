@@ -38,12 +38,16 @@ export default function RootLayout() {
 function RootLayoutNav() {
 	const colorScheme = useColorScheme();
 
+	/**
+	 * @see https://expo.github.io/router/docs/migration/react-navigation/screen#static-options
+	 */
 	return (
 		<>
 			<ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
 				<Stack>
 					<Stack.Screen name="(tabs)" options={{ headerShown: false }} />
 					<Stack.Screen name="modal" options={{ presentation: "modal" }} />
+					<Stack.Screen name="details" options={{ presentation: "modal" }} />
 				</Stack>
 			</ThemeProvider>
 		</>
