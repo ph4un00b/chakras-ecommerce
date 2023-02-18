@@ -1,0 +1,13 @@
+- [ ] PRINCIPAL:
+  - [ ] FILTROS-ORDENAMIENTO
+  - [ ] FOTO
+  - [ ] TITULO
+  - [ ] PRECIO
+  - [ ] LINK AL DETALLE
+- [ ] DETALLE:
+  - [ ] FOTO
+  - [ ] TITULO
+  - [ ] DESCRIPCION
+  - [ ] PRECIO
+  - [ ] CONTADOR
+  - [ ] BOTONES DE COMPRA(AGREGAR AL CARRITO, COMPRAR AHORRA)
