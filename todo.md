@@ -1,9 +1,10 @@
 - UI: https://dribbble.com/shots/19614098-Shopcart-E-Commerce-Product-Page
 
 - [x] BASE SETUP (TW, LINT, EDITORCONFIG)
-- [ ] TYPE CHECKING BEFORE MERGE
-- [ ] LINT BEFORE MERGE
-
+- [x] TYPE CHECKING BEFORE MERGE
+- [x] LINT BEFORE MERGE
+- ADD README
+	- [ ] GIF FROM ACTUAL UI STATE
 - [ ] PRINCIPAL:
   - [ ] FILTROS-ORDENAMIENTO
     - [x] markup
