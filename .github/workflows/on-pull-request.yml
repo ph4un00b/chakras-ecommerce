@@ -19,17 +19,10 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
+          cache: "npm"
+          cache-dependency-path: package-lock.json
+
       - run: npm ci
-      - uses: EPMatt/reviewdog-action-tsc@v1
-        with:
-          github_token: ${{ secrets.github_token }}
-          # Change reviewdog reporter if you need
-          # [github-pr-check,github-check,github-pr-review].
-          # More about reviewdog reporters at
-          # https://github.com/reviewdog/reviewdog#reporters
-          reporter: github-pr-review
-          # Change reporter level if you need
-          # [info,warning,error].
-          # More about reviewdog reporter level at
-          # https://github.com/reviewdog/reviewdog#reporters
-          level: warning
+
+      - name: tsc
+        run: npm run tsc
