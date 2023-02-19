@@ -20,5 +20,5 @@ export function ExternalLink(props: React.ComponentProps<typeof Link>) {
 				}
 			}}
 		/>
-	)
+	);
 }
