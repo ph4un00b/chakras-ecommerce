@@ -11,17 +11,21 @@ on:
       - master
 
 jobs:
-  lint:
-    name: Lint
+  tsc:
+    name: runner / tsc
     runs-on: ubuntu-22.04
-
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v2
+      - uses: EPMatt/reviewdog-action-tsc@v1
         with:
-          node-version: 14
-      - run: npm ci
-      - uses: reviewdog/action-eslint@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          reporter: github-pr-review # Change reporter.
+          github_token: ${{ secrets.github_token }}
+          # Change reviewdog reporter if you need
+          # [github-pr-check,github-check,github-pr-review].
+          # More about reviewdog reporters at
+          # https://github.com/reviewdog/reviewdog#reporters
+          reporter: github-pr-review
+          # Change reporter level if you need
+          # [info,warning,error].
+          # More about reviewdog reporter level at
+          # https://github.com/reviewdog/reviewdog#reporters
+          level: warning
