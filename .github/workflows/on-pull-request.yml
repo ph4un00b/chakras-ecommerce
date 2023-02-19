@@ -11,6 +11,23 @@ on:
       - master
 
 jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-22.04
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: "npm"
+          cache-dependency-path: package-lock.json
+
+      - run: npm ci
+      - uses: reviewdog/action-eslint@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review # Change reporter.
   tsc:
     name: runner / tsc
     runs-on: ubuntu-22.04
