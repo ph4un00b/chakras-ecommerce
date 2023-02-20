@@ -28,8 +28,8 @@ export default function TabLayout() {
 					/**
 					 * @see https://expo.github.io/router/docs/guides/tabs#hiding-a-tab
 					 */
-					href: null,
-					title: "Principal",
+					// href: null,
+					title: "with <Image />",
 					tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
 					headerRight: () => (
 						/**
@@ -53,8 +53,16 @@ export default function TabLayout() {
 			<Tabs.Screen
 				name="two"
 				options={{
-					href: null,
+					// href: null,
 					title: "Tab Two",
+					tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
+				}}
+			/>
+			<Tabs.Screen
+				name="expo-image"
+				options={{
+					// href: null,
+					title: "with <Expo-Image />",
 					tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
 				}}
 			/>
